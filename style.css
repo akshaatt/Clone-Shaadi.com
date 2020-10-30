@@ -74,9 +74,9 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    background: #000;
+    background: rgba(0, 0, 0, 0.5);
     padding: 15px;
-    opacity: 0.8;
+    /* opacity: 0.8; */
     width: 78%;
     margin-left: 200px;
     margin-top: 20px;
@@ -244,6 +244,121 @@ option{
     margin-left: -20px;
 }
 #know{
-    height: 80vh;
+    height: 90vh;
    background: linear-gradient(180deg,#f5fbfe,#daeffe);
+}
+.know-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.know-title p{
+    font-size: 2.4rem;
+    font-family: 'Roboto' , sans-serif;
+    font-weight: 900;
+    color: tomato;
+}
+.know-content{
+    display: flex;
+    align-items: top;
+    justify-content: center;
+}
+.know-context{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    /* height: 500px; */
+    margin-left: 30px;
+}
+.know-img img{
+    height: 80px;
+    width: 340px;
+    
+}
+.know-img{
+    margin-top: -50px;
+}
+.know-text p{
+  text-align: center;
+  font-size: 1.8rem;
+  color: #3f3f3f;
+  font-family: 'Raleway', sans-serif;
+  font-weight: lighter;
+  
+}
+.know-text p:nth-child(2){
+    margin-top: -20px;
+}
+.available p{
+    color: tomato;
+    font-size: 1.3rem;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 40px;
+    font-weight: 800;
+}
+.appstore{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin-top: -40px;
+}
+.appstore img{
+    height: 80px;
+    width: 180px;
+    cursor: pointer;
+}
+#stories{
+    height: 140vh;
+}
+.story-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.story-title p{
+color: tomato;
+font-size: 2.5rem;
+font-weight: 200;
+font-family: 'Raleway', sans-serif;
+}
+.card{
+    height: 500px;
+    width: 350px;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.5);
+    transition: 0.3s;
+    margin: 20px;
+}
+.know-container{
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-content: center;
+}
+.story-img img{
+    width: 350px;
+    height: 250px;
+}
+.story-text{
+    padding: 20px;
+}
+.story-text h1{
+    font-family: 'Raleway', sans-serif;
+    color: #666;
+    font-weight: 600;
+    font-size: 1.6rem;
+}
+.story-text p{
+    color: #333;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    line-height: 19px;
+    font-size: 15px;
+}
+.card:hover{
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.6);
 }
