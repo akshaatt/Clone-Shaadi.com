@@ -312,7 +312,7 @@ option{
     cursor: pointer;
 }
 #stories{
-    height: 140vh;
+    height: 200vh;
 }
 .story-title{
     display: flex;
@@ -338,6 +338,8 @@ font-family: 'Raleway', sans-serif;
     justify-items: center;
     grid-template-columns: 1fr 1fr 1fr;
     align-content: center;
+    grid-gap: -30px;
+    
 }
 .story-img img{
     width: 350px;
@@ -361,4 +363,106 @@ font-family: 'Raleway', sans-serif;
 }
 .card:hover{
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.6);
+}
+.story-bar{
+    height: 15vh;
+    width: 100%;
+    background: #ff5a60;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    top: 0;
+    left: 0;
+    position: sticky;
+}
+.story-text1{
+color: #fff;
+font-family: 'Raleway', sans-serif;
+font-size: 1.5rem;
+font-weight: 600;
+}
+.story-btn input{
+    width: 180px;
+    height: 50px;
+    border: 2px solid #fff;
+    border-radius: 2px;
+    outline: none;
+    background: transparent;
+    color: #fff;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: 0.4s;
+    font-family: 'Raleway', sans-serif;
+
+}
+.story-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 13px;
+    transition: 0.4s;
+    color: #fff;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+
+}
+.story-btn input:hover{
+    color: #006f94 ;
+    background: whitesmoke;
+}
+.know-start{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    color: #ff5a60;
+    font-size: 2.6rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+.ath-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.ath-head{
+    color: #51505d;
+    font-family: 'Roboto' , sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.ath-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 5px;
+    color: #333;
+}
+.ath-container{
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 50px;
+}
+.ath-foot a{
+    color: #006f94;
+    text-decoration: none;
+    font-family: 'Roboto' , sans-serif;
+    font-size: 1.1rem;
+    /* letter-spacing: 1px; */
+    font-weight: 500;
+}
+.ath-foot i{
+    font-size: 1.1rem;
+    color: #666;
+    margin: 4px;
+}
+.ath-foot{
+    display: flex;
+    align-items: center;
 }
